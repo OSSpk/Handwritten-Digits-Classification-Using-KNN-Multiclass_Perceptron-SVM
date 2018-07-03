@@ -2,6 +2,7 @@
 
 ## Problem Statement
 The task at hand is to classify handwritten digits using supervised machine learning methods. The digits belong to classes of 0 – 9. 
+
 *“Given a query instance (a digit) in the form of an image, our machine learning model must correctly classify its appropriate class.”*
 
 ## Dataset
@@ -13,23 +14,23 @@ We have used **supervised machine learning models** to predict the digits. Since
 
 ### 1) K-Nearest Neighbors Classifier – Our Baseline Method
 k-Nearest Neighbors (k-NN) is an algorithm, which:
-•	ﬁnds a group of k objects in the training set that are closest to the test object, and
-•	bases the assignment of a label on the predominance of a class in this neighborhood.
+*	ﬁnds a group of k objects in the training set that are closest to the test object, and
+*	bases the assignment of a label on the predominance of a class in this neighborhood.
 
 When we used the K-NN method the following pros and cons were observed:
 
 #### Pros
-•	K-NN executes quickly for small training data sets.
-•	No assumptions about data — useful, for example, for nonlinear data
-•	Simple algorithm — to explain and understand/interpret
-•	Versatile — useful for classification or regression
-•	Training phase is extremely quick because it doesn’t learn any data
+*	K-NN executes quickly for small training data sets.
+*	No assumptions about data — useful, for example, for nonlinear data
+*	Simple algorithm — to explain and understand/interpret
+*	Versatile — useful for classification or regression
+*	Training phase is extremely quick because it doesn’t learn any data
 
 #### Cons
-•	Computationally expensive — because the algorithm compares the test data with all examples in training data and then finalizes the label
-•	The value of K is unknown and can be predicted using cross validation techniques
-•	High memory requirement – because all the training data is stored
-•	Prediction stage might be slow if training data is large
+*	Computationally expensive — because the algorithm compares the test data with all examples in training data and then finalizes the label
+*	The value of K is unknown and can be predicted using cross validation techniques
+*	High memory requirement – because all the training data is stored
+*	Prediction stage might be slow if training data is large
 
 ### 2) Multiclass Perceptron Classifier:
 A multiclass perceptron classifier can be made using multiple binary class classifiers trained with 1 vs all strategy. In this strategy, while training a perceptron the training labels are such that e.g. for the classifier 2 vs all, the labels with 2 will be labeled as 1 and rest will be labeled as 0 for Sigmoid Unit while for Rosenblatt’s perceptron the labels would be 1 and -1 respectively for positive and negative examples. 
@@ -40,8 +41,8 @@ Now all we have to do is to train (learn the weights for) 10 classifiers separat
 
 As we already discussed, K-NN stores all the training data and when a new query instance comes it compares its similarity with all the training data which makes it expensive both computationally and memory-wise. There is no learning involved as such. On the other hand, Multiclass perceptron takes some time in learning phase but after its training is done, it learns the new weights which can be saved and then used. Now, when a query instance comes, it only has to take to dot product of that instance with the weights learned and there comes the output (after applying activation function). 
 
-•	The prediction phase is extremely fast as compared to that of K-NN. 
-•	Also, it’s a lot more efficient in terms of computation (during prediction phase) and memory (because now it only has to store the weights instead of all the training data). 
+*	The prediction phase is extremely fast as compared to that of K-NN. 
+*	Also, it’s a lot more efficient in terms of computation (during prediction phase) and memory (because now it only has to store the weights instead of all the training data). 
 
 ### SVM Classifier:
 
@@ -75,5 +76,15 @@ While for Multiclass Perceptron Classifier we observed it will mitigate this lim
 
 When the times were calculated for the prediction phases of K-NN, Multiclass Perceptron and SVM, the Multiclass Perceptron clearly stands out with the shortest prediction time while on the other side, K-NN took a large time in predicting the test instances.
 Hence Multiclass Perceptron clearly leaves K-NN behind in terms of efficiency in Prediction Time and also in terms of computation and memory load. Thus, it mitigates the limitations of our baseline method K-NN.
+
+## Contact
+You can get in touch with me on my LinkedIn Profile: [Haris Muneer](https://www.linkedin.com/in/harismuneer/)
+
+## Issues
+If you face any issue, you can create a new issue in the Issues Tab and I will be glad to help you out.
+
+## License
+[MIT](../master/LICENSE)
+Copyright (c) 2018-present, harismuneer
 
 
