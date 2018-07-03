@@ -95,6 +95,8 @@ The code files are in running condition and are directly executable.
 
 (To install all the necessary packages at once, install [Anaconda](https://www.anaconda.com/download/#download))
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ## Contact
 You can get in touch with me on my LinkedIn Profile: [Haris Muneer](https://www.linkedin.com/in/harismuneer/)
 
