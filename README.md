@@ -1,5 +1,7 @@
 # A Comparative Study on Handwritten Digits Recognition using Classifiers like K-NN, Multiclass Perceptron and SVM
 
+For the full report, refer to the file named "**Detailed Report.pdf**".
+
 ## Problem Statement
 The task at hand is to classify handwritten digits using supervised machine learning methods. The digits belong to classes of    0 – 9. 
 
@@ -81,6 +83,12 @@ While for Multiclass Perceptron Classifier we observed it will mitigate this lim
 
 When the times were calculated for the prediction phases of K-NN, Multiclass Perceptron and SVM, the Multiclass Perceptron clearly stands out with the shortest prediction time while on the other side, K-NN took a large time in predicting the test instances.
 Hence Multiclass Perceptron clearly leaves K-NN behind in terms of efficiency in Prediction Time and also in terms of computation and memory load. Thus, it mitigates the limitations of our baseline method K-NN.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+## How to Run Code
+To install all the necessary packages at once, install [Anaconda](https://www.anaconda.com/download/#download).
+The code files are in running condition and are directly executable.
 
 ## Contact
 You can get in touch with me on my LinkedIn Profile: [Haris Muneer](https://www.linkedin.com/in/harismuneer/)
