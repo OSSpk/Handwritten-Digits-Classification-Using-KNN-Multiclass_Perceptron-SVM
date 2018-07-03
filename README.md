@@ -44,10 +44,15 @@ As we already discussed, K-NN stores all the training data and when a new query 
 *	The prediction phase is extremely fast as compared to that of K-NN. 
 *	Also, it’s a lot more efficient in terms of computation (during prediction phase) and memory (because now it only has to store the weights instead of all the training data). 
 
-### SVM Classifier:
+### SVM Classifier using Histogram of Oriented Gradients (HOG) Features:
 
 Just for comparison purposes, we have also used a third supervised machine learning technique named Support Vector Machine Classifier.
 The model isn’t implemented. Its imported directly from scikit learn module of python and used.
+
+In K-NN and Multiclass Perceptron Classifier we trained our models on raw images directly instead of computing some features from the input image and training the model on those computed measurements/features. 
+
+A feature descriptor is a representation of an image that simplifies the image by extracting useful information and throwing away extraneous information. Now we are going to compute the Histogram of Oriented Gradients as features from the digit images and we will train the SVM Classifier on that. The HOG descriptor technique counts occurrences of gradient orientation in localized portions of an image - detection window.
+
 
 ## Analysis
 
