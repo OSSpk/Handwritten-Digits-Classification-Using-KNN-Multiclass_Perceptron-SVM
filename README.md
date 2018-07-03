@@ -62,7 +62,9 @@ Now the final phase. After running the experiment with different algorithms, the
 
 ### Accuracy (Performance):
 
-![accuracy](../master/Images/r1.png)
+<p align="middle">
+  <img src="../master/Images/r1.png" width="600"/>
+</p>
 
 When we compare the K-NN method with Multiclass Perceptron and SVM on basis of accuracy then its accuracy is similar to that of other two classifiers which means despite its simplicity K-NN is really a good classifier.
 
@@ -76,7 +78,9 @@ While for Multiclass Perceptron Classifier we observed it will mitigate this lim
 
 #### Results:
 
-![efficiency](../master/Images/r2.png)
+<p align="middle">
+  <img src="../master/Images/r2.png" width="600"/>
+</p>
 
 
 ## Conclusion:
