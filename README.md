@@ -1,8 +1,7 @@
 # A Comparative Study on Handwritten Digits Recognition using Classifiers like K-NN, Multiclass Perceptron and SVM
 
 ## Problem Statement
-The task at hand is to classify handwritten digits using supervised machine learning methods. The digits belong to classes of 
-0 – 9. 
+The task at hand is to classify handwritten digits using supervised machine learning methods. The digits belong to classes of    0 – 9. 
 
 *“Given a query instance (a digit) in the form of an image, our machine learning model must correctly classify its appropriate class.”*
 
@@ -45,7 +44,7 @@ As we already discussed, K-NN stores all the training data and when a new query 
 *	The prediction phase is extremely fast as compared to that of K-NN. 
 *	Also, it’s a lot more efficient in terms of computation (during prediction phase) and memory (because now it only has to store the weights instead of all the training data). 
 
-### SVM Classifier using Histogram of Oriented Gradients (HOG) Features:
+### 3) SVM Classifier using Histogram of Oriented Gradients (HOG) Features:
 
 Just for comparison purposes, we have also used a third supervised machine learning technique named Support Vector Machine Classifier.
 The model isn’t implemented. Its imported directly from scikit learn module of python and used.
