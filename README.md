@@ -1,6 +1,6 @@
 # A Comparative Study on Handwritten Digits Recognition using Classifiers like K-NN, Multiclass Perceptron and SVM
 
-For the full report, refer to the file named "**[Detailed Report.pdf](../master/Detailed Report.pdf)**".
+For the full report, refer to the file named [Detailed Report.pdf](../master/"Detailed_Report.pdf").
 
 ## Problem Statement
 The task at hand is to classify handwritten digits using supervised machine learning methods. The digits belong to classes of    0 – 9. 
