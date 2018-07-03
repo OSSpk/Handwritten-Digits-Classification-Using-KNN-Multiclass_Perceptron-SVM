@@ -1,6 +1,6 @@
 # A Comparative Study on Handwritten Digits Recognition using Classifiers like K-NN, Multiclass Perceptron and SVM
 
-For the full report, refer to the file named "**Detailed Report.pdf**".
+For the full report, refer to the file named "**[Detailed Report.pdf](../master/Detailed Report.pdf)**".
 
 ## Problem Statement
 The task at hand is to classify handwritten digits using supervised machine learning methods. The digits belong to classes of    0 – 9. 
@@ -62,7 +62,9 @@ Now the final phase. After running the experiment with different algorithms, the
 
 ### Accuracy (Performance):
 
-![accuracy](../master/Images/r1.png)
+<p align="middle">
+  <img src="../master/Images/r1.png" width="600"/>
+</p>
 
 When we compare the K-NN method with Multiclass Perceptron and SVM on basis of accuracy then its accuracy is similar to that of other two classifiers which means despite its simplicity K-NN is really a good classifier.
 
@@ -76,7 +78,9 @@ While for Multiclass Perceptron Classifier we observed it will mitigate this lim
 
 #### Results:
 
-![efficiency](../master/Images/r2.png)
+<p align="middle">
+  <img src="../master/Images/r2.png" width="600"/>
+</p>
 
 
 ## Conclusion:
@@ -87,8 +91,9 @@ Hence Multiclass Perceptron clearly leaves K-NN behind in terms of efficiency in
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ## How to Run Code
-To install all the necessary packages at once, install [Anaconda](https://www.anaconda.com/download/#download).
 The code files are in running condition and are directly executable.
+
+(To install all the necessary packages at once, install [Anaconda](https://www.anaconda.com/download/#download))
 
 ## Contact
 You can get in touch with me on my LinkedIn Profile: [Haris Muneer](https://www.linkedin.com/in/harismuneer/)
