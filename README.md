@@ -105,6 +105,6 @@ If you face any issue, you can create a new issue in the Issues Tab and I will b
 
 ## License
 [MIT](../master/LICENSE)
-Copyright (c) 2018-present, harismuneer
+Copyright (c) 2018-present, harismuneer, Hassaan-Elahi
 
 
