@@ -1,4 +1,4 @@
-# A Comparative Study on Handwritten Digits Recognition using Classifiers like K-NN, Multiclass Perceptron and SVM
+# 🏆 A Comparative Study on Handwritten Digits Recognition using Classifiers like K-NN, Multiclass Perceptron and SVM
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
 [![GitHub Forks](https://img.shields.io/github/forks/harismuneer/Handwritten-Digits-Classification-Using-KNN-Multiclass_Perceptron-SVM.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/harismuneer/Handwritten-Digits-Classification-Using-KNN-Multiclass_Perceptron-SVM/fork)
